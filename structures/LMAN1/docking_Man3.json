@@ -1,0 +1,139 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Man3",
+  "ligand_name": "Manα1-3(Manα1-6)Man (Man3 Core)",
+  "ligand_smiles": "OC[C@H]1O[C@H](OC[C@H]2O[C@H](O)[C@@H](O)[C@@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]3O)[C@@H]2O)[C@@H](O)[C@@H](O)[C@@H]1O",
+  "affinity_kcal": -7.0,
+  "pocket_center": [
+    -14.0,
+    5.01,
+    14.11
+  ],
+  "ligand_pdb": "structures/LMAN1/docked_Man3.pdb",
+  "n_ligand_atoms": 34,
+  "binding_residues": [
+    238,
+    269,
+    209,
+    272,
+    101,
+    210,
+    240,
+    102,
+    239,
+    237,
+    207
+  ],
+  "contacts": [
+    {
+      "resid": 238,
+      "resname": "ILE",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.4,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 269,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE2",
+      "ligand_atom": "O8",
+      "ligand_elem": "O",
+      "distance": 2.71,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 209,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "NE2",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 2.96,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 272,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "NZ",
+      "ligand_atom": "O8",
+      "ligand_elem": "O",
+      "distance": 3.03,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 101,
+      "resname": "PHE",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.06,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 210,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O15",
+      "ligand_elem": "O",
+      "distance": 3.1,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 240,
+      "resname": "ALA",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "C3",
+      "ligand_elem": "C",
+      "distance": 3.25,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 102,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.3,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 239,
+      "resname": "PRO",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 3.48,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 237,
+      "resname": "ILE",
+      "chain": "A",
+      "protein_atom": "CG2",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.64,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 207,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "OH",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 4.17,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

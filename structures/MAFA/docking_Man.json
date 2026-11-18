@@ -1,0 +1,128 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Man",
+  "ligand_name": "α-D-Mannose",
+  "ligand_smiles": "OC[C@H]1O[C@H](O)[C@@H](O)[C@@H](O)[C@@H]1O",
+  "affinity_kcal": -5.7,
+  "pocket_center": [
+    4.14,
+    -4.8,
+    5.93
+  ],
+  "ligand_pdb": "structures/MAFA/docked_Man.pdb",
+  "n_ligand_atoms": 12,
+  "binding_residues": [
+    144,
+    142,
+    136,
+    138,
+    143,
+    146,
+    140,
+    137,
+    145,
+    135
+  ],
+  "contacts": [
+    {
+      "resid": 144,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 2.76,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 142,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH1",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 2.8,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 136,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.0,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 138,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "ND2",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.09,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 143,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "C2",
+      "ligand_elem": "C",
+      "distance": 3.29,
+      "interaction": "CH–π 疏水堆疊 (CH–π Stacking)"
+    },
+    {
+      "resid": 146,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 3.31,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 140,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.82,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 137,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "C",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 4.04,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 145,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "C",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 4.04,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 135,
+      "resname": "LEU",
+      "chain": "A",
+      "protein_atom": "C",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 4.17,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

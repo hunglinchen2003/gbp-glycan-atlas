@@ -1,0 +1,139 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "GlcNAc",
+  "ligand_name": "β-D-GlcNAc",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]1O",
+  "affinity_kcal": -6.5,
+  "pocket_center": [
+    1.13,
+    2.83,
+    -5.15
+  ],
+  "ligand_pdb": "structures/FCN2/docked_GlcNAc.pdb",
+  "n_ligand_atoms": 15,
+  "binding_residues": [
+    154,
+    155,
+    151,
+    279,
+    153,
+    156,
+    278,
+    281,
+    148,
+    152,
+    277
+  ],
+  "contacts": [
+    {
+      "resid": 154,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.75,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 155,
+      "resname": "PHE",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.82,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 151,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.88,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 279,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 2.95,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 153,
+      "resname": "VAL",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.96,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 156,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.3,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 278,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NE",
+      "ligand_atom": "C7",
+      "ligand_elem": "C",
+      "distance": 3.49,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 281,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH2",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.49,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 148,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH2",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 4.12,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 152,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "C",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 4.26,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 277,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 4.49,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

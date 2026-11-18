@@ -1,0 +1,84 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "LacNAc",
+  "ligand_name": "Galβ1-4GlcNAc (LacNAc)",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)[C@@H](CO)O[C@H]1O",
+  "affinity_kcal": -5.4,
+  "pocket_center": [
+    -9.61,
+    -3.64,
+    23.46
+  ],
+  "ligand_pdb": "structures/LGALS8/docked_LacNAc.pdb",
+  "n_ligand_atoms": 26,
+  "binding_residues": [
+    293,
+    251,
+    253,
+    252,
+    250,
+    255
+  ],
+  "contacts": [
+    {
+      "resid": 293,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NE",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 2.92,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 251,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE2",
+      "ligand_atom": "O10",
+      "ligand_elem": "O",
+      "distance": 3.02,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 253,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "CG",
+      "ligand_atom": "O11",
+      "ligand_elem": "O",
+      "distance": 3.06,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 252,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.67,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 250,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "O8",
+      "ligand_elem": "O",
+      "distance": 3.68,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 255,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "ND2",
+      "ligand_atom": "O11",
+      "ligand_elem": "O",
+      "distance": 4.02,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

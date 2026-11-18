@@ -1,0 +1,150 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "SLeX",
+  "ligand_name": "Sialyl-Lewis X (SLeX)",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O[C@@H]2O[C@@H](C)[C@@H](O)[C@@H](O)[C@@H]2O)[C@H](O[C@@H]3O[C@H](CO)[C@H](O)[C@H](O[C@]4(C(=O)O)C[C@H](O)[C@@H](NC(C)=O)[C@@H]([C@H](O)[C@H](O)CO)O4)[C@H]3O)[C@@H](CO)O[C@H]1O",
+  "affinity_kcal": -8.7,
+  "pocket_center": [
+    35.59,
+    11.51,
+    -19.78
+  ],
+  "ligand_pdb": "structures/SELL/docked_SLeX.pdb",
+  "n_ligand_atoms": 56,
+  "binding_residues": [
+    116,
+    122,
+    149,
+    126,
+    135,
+    145,
+    123,
+    118,
+    137,
+    143,
+    138,
+    132
+  ],
+  "contacts": [
+    {
+      "resid": 116,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.7,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 122,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "NZ",
+      "ligand_atom": "O15",
+      "ligand_elem": "O",
+      "distance": 2.8,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 149,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "NZ",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 2.8,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 126,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 2.9,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 135,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH2",
+      "ligand_atom": "C6",
+      "ligand_elem": "C",
+      "distance": 3.1,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 145,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 3.14,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 123,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "CE",
+      "ligand_atom": "O10",
+      "ligand_elem": "O",
+      "distance": 3.16,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 118,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.17,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 137,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "NZ",
+      "ligand_atom": "O23",
+      "ligand_elem": "O",
+      "distance": 3.66,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 143,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "ND2",
+      "ligand_atom": "O13",
+      "ligand_elem": "O",
+      "distance": 3.72,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 138,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD2",
+      "ligand_atom": "C6",
+      "ligand_elem": "C",
+      "distance": 3.85,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 132,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "OH",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 4.01,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

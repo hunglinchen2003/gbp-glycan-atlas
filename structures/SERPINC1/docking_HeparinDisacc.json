@@ -1,0 +1,106 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "HeparinDisacc",
+  "ligand_name": "Sulfated GlcNS6S-IdoA2S (GAG)",
+  "ligand_smiles": "NS(=O)(=O)N[C@@H]1[C@@H](O)[C@H](O[C@@H]2O[C@@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2OS(=O)(=O)O)[C@@H](COS(=O)(=O)O)O[C@H]1O",
+  "affinity_kcal": -6.5,
+  "pocket_center": [
+    26.16,
+    3.59,
+    -5.66
+  ],
+  "ligand_pdb": "structures/SERPINC1/docked_HeparinDisacc.pdb",
+  "n_ligand_atoms": 36,
+  "binding_residues": [
+    294,
+    296,
+    344,
+    293,
+    342,
+    295,
+    346,
+    292
+  ],
+  "contacts": [
+    {
+      "resid": 294,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O12",
+      "ligand_elem": "O",
+      "distance": 2.83,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 296,
+      "resname": "ALA",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.12,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 344,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE2",
+      "ligand_atom": "O14",
+      "ligand_elem": "O",
+      "distance": 3.14,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 293,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH2",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.29,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 342,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE2",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 3.47,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 295,
+      "resname": "VAL",
+      "chain": "A",
+      "protein_atom": "C",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.52,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 346,
+      "resname": "MET",
+      "chain": "A",
+      "protein_atom": "SD",
+      "ligand_atom": "O14",
+      "ligand_elem": "O",
+      "distance": 3.56,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 292,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O14",
+      "ligand_elem": "O",
+      "distance": 3.95,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

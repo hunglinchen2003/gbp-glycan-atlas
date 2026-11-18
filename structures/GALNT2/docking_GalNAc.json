@@ -1,0 +1,117 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "GalNAc",
+  "ligand_name": "α-D-GalNAc (Tn antigen)",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O)[C@@H](O)[C@H](CO)O[C@H]1O",
+  "affinity_kcal": -5.1,
+  "pocket_center": [
+    -10.26,
+    -6.55,
+    -19.01
+  ],
+  "ligand_pdb": "structures/GALNT2/docked_GalNAc.pdb",
+  "n_ligand_atoms": 15,
+  "binding_residues": [
+    302,
+    432,
+    271,
+    436,
+    433,
+    289,
+    343,
+    435,
+    428
+  ],
+  "contacts": [
+    {
+      "resid": 302,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "NZ",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 2.74,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 432,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "N1",
+      "ligand_elem": "N",
+      "distance": 2.74,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 271,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "NZ",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.91,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 436,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.1,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 433,
+      "resname": "VAL",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "C4",
+      "ligand_elem": "C",
+      "distance": 3.22,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 289,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "NE2",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.28,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 343,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "CZ2",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.53,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 435,
+      "resname": "PRO",
+      "chain": "A",
+      "protein_atom": "CD",
+      "ligand_atom": "C6",
+      "ligand_elem": "C",
+      "distance": 3.58,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 428,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "CZ2",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 4.14,
+      "interaction": "CH–π 疏水堆疊 (CH–π Stacking)"
+    }
+  ]
+}

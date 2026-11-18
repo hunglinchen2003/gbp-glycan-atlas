@@ -1,0 +1,106 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "GalNAc",
+  "ligand_name": "α-D-GalNAc (Tn antigen)",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O)[C@@H](O)[C@H](CO)O[C@H]1O",
+  "affinity_kcal": -5.0,
+  "pocket_center": [
+    3.39,
+    7.04,
+    -6.6
+  ],
+  "ligand_pdb": "structures/TLT2/docked_GalNAc.pdb",
+  "n_ligand_atoms": 15,
+  "binding_residues": [
+    108,
+    111,
+    110,
+    52,
+    51,
+    109,
+    50,
+    192
+  ],
+  "contacts": [
+    {
+      "resid": 108,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.92,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 111,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.96,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 110,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.13,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 52,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "C7",
+      "ligand_elem": "C",
+      "distance": 3.5,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 51,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "CG",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.55,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 109,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "CG2",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.58,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 50,
+      "resname": "VAL",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.81,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 192,
+      "resname": "PHE",
+      "chain": "A",
+      "protein_atom": "CE2",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 4.25,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

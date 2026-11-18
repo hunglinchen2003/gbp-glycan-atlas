@@ -1,0 +1,73 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "GlcNAc",
+  "ligand_name": "β-D-GlcNAc",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]1O",
+  "affinity_kcal": -4.6,
+  "pocket_center": [
+    8.29,
+    17.16,
+    -16.62
+  ],
+  "ligand_pdb": "structures/WGA/docked_GlcNAc.pdb",
+  "n_ligand_atoms": 15,
+  "binding_residues": [
+    45,
+    56,
+    55,
+    49,
+    47
+  ],
+  "contacts": [
+    {
+      "resid": 45,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "OG",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.71,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 56,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "OH",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 2.81,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 55,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.39,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 49,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "CD2",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.49,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 47,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "CD2",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.72,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

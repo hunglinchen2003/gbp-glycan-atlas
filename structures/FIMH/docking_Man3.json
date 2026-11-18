@@ -1,0 +1,95 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Man3",
+  "ligand_name": "Manα1-3(Manα1-6)Man (Man3 Core)",
+  "ligand_smiles": "OC[C@H]1O[C@H](OC[C@H]2O[C@H](O)[C@@H](O)[C@@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]3O)[C@@H]2O)[C@@H](O)[C@@H](O)[C@@H]1O",
+  "affinity_kcal": -6.6,
+  "pocket_center": [
+    20.84,
+    1.51,
+    -27.44
+  ],
+  "ligand_pdb": "structures/FIMH/docked_Man3.pdb",
+  "n_ligand_atoms": 34,
+  "binding_residues": [
+    113,
+    157,
+    155,
+    76,
+    156,
+    161,
+    159
+  ],
+  "contacts": [
+    {
+      "resid": 113,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH1",
+      "ligand_atom": "O14",
+      "ligand_elem": "O",
+      "distance": 2.9,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 157,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "ND2",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 3.01,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 155,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "OG1",
+      "ligand_atom": "C16",
+      "ligand_elem": "C",
+      "distance": 3.28,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 76,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "OH",
+      "ligand_atom": "O15",
+      "ligand_elem": "O",
+      "distance": 3.31,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 156,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O12",
+      "ligand_elem": "O",
+      "distance": 3.64,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 161,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 3.98,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 159,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O8",
+      "ligand_elem": "O",
+      "distance": 4.37,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

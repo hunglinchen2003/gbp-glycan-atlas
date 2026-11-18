@@ -1,0 +1,150 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "TF_antigen",
+  "ligand_name": "Galβ1-3GalNAc (T antigen)",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@H](CO)O[C@H]1O",
+  "affinity_kcal": -6.1,
+  "pocket_center": [
+    -1.27,
+    1.14,
+    -8.17
+  ],
+  "ligand_pdb": "structures/JACALIN/docked_TF_antigen.pdb",
+  "n_ligand_atoms": 26,
+  "binding_residues": [
+    27,
+    45,
+    43,
+    51,
+    53,
+    16,
+    17,
+    18,
+    49,
+    52,
+    55,
+    54
+  ],
+  "contacts": [
+    {
+      "resid": 27,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "O11",
+      "ligand_elem": "O",
+      "distance": 2.84,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 45,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "NZ",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 2.98,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 43,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "ND2",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 3.05,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 51,
+      "resname": "PHE",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.14,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 53,
+      "resname": "PRO",
+      "chain": "A",
+      "protein_atom": "CD",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.29,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 16,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.53,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 17,
+      "resname": "LEU",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.54,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 18,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.73,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 49,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 4.07,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 52,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "C",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 4.16,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 55,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "CE",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 4.22,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 54,
+      "resname": "VAL",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 4.3,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "HeparinDisacc",
+  "ligand_name": "Sulfated GlcNS6S-IdoA2S (GAG)",
+  "ligand_smiles": "NS(=O)(=O)N[C@@H]1[C@@H](O)[C@H](O[C@@H]2O[C@@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2OS(=O)(=O)O)[C@@H](COS(=O)(=O)O)O[C@H]1O",
+  "affinity_kcal": -4.8,
+  "pocket_center": [
+    3.67,
+    8.49,
+    -10.14
+  ],
+  "ligand_pdb": "structures/NKP30/docked_HeparinDisacc.pdb",
+  "n_ligand_atoms": 36,
+  "binding_residues": [
+    54,
+    60,
+    52,
+    109,
+    65,
+    111,
+    56,
+    67
+  ],
+  "contacts": [
+    {
+      "resid": 54,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "OG1",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 2.83,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 60,
+      "resname": "VAL",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O19",
+      "ligand_elem": "O",
+      "distance": 3.01,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 52,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "OG",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 3.06,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 109,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH1",
+      "ligand_atom": "O11",
+      "ligand_elem": "O",
+      "distance": 3.09,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 65,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O15",
+      "ligand_elem": "O",
+      "distance": 3.36,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 111,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 3.36,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 56,
+      "resname": "PHE",
+      "chain": "A",
+      "protein_atom": "CZ",
+      "ligand_atom": "O17",
+      "ligand_elem": "O",
+      "distance": 3.48,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 67,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH1",
+      "ligand_atom": "O15",
+      "ligand_elem": "O",
+      "distance": 3.59,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    }
+  ]
+}

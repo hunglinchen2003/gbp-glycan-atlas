@@ -1,0 +1,84 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "LacNAc",
+  "ligand_name": "Galβ1-4GlcNAc (LacNAc)",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)[C@@H](CO)O[C@H]1O",
+  "affinity_kcal": -5.4,
+  "pocket_center": [
+    -23.07,
+    2.75,
+    18.02
+  ],
+  "ligand_pdb": "structures/LGALS4/docked_LacNAc.pdb",
+  "n_ligand_atoms": 26,
+  "binding_residues": [
+    89,
+    87,
+    84,
+    85,
+    86,
+    77
+  ],
+  "contacts": [
+    {
+      "resid": 89,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH2",
+      "ligand_atom": "O10",
+      "ligand_elem": "O",
+      "distance": 2.8,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 87,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 2.86,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 84,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.89,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 85,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "C6",
+      "ligand_elem": "C",
+      "distance": 3.09,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 86,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.62,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 77,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "ND2",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 4.43,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Sia26Gal",
+  "ligand_name": "Neu5Acα2-6Gal",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](C[C@](O)(OC[C@H]2O[C@@H](O)[C@H](O)[C@@H](O)[C@H]2O)C(=O)O)O[C@H]([C@H](O)[C@H](O)CO)[C@H]1O",
+  "affinity_kcal": -7.0,
+  "pocket_center": [
+    32.2,
+    5.13,
+    -18.67
+  ],
+  "ligand_pdb": "structures/SIGLEC6/docked_Sia26Gal.pdb",
+  "n_ligand_atoms": 34,
+  "binding_residues": [
+    134,
+    122,
+    28,
+    130,
+    131,
+    133,
+    129,
+    31
+  ],
+  "contacts": [
+    {
+      "resid": 134,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "OG",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.73,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 122,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH2",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 2.86,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 28,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 2.95,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 130,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "OH",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 2.95,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 131,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O14",
+      "ligand_elem": "O",
+      "distance": 3.03,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 133,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "OG1",
+      "ligand_atom": "O14",
+      "ligand_elem": "O",
+      "distance": 3.23,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 129,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "NZ",
+      "ligand_atom": "O10",
+      "ligand_elem": "O",
+      "distance": 3.29,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 31,
+      "resname": "PHE",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "C8",
+      "ligand_elem": "C",
+      "distance": 3.65,
+      "interaction": "CH–π 疏水堆疊 (CH–π Stacking)"
+    }
+  ]
+}

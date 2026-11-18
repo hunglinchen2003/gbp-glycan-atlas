@@ -1,0 +1,95 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Gal",
+  "ligand_name": "β-D-Galactose",
+  "ligand_smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+  "affinity_kcal": -5.4,
+  "pocket_center": [
+    6.96,
+    -8.08,
+    -9.98
+  ],
+  "ligand_pdb": "structures/LECA/docked_Gal.pdb",
+  "n_ligand_atoms": 12,
+  "binding_residues": [
+    47,
+    48,
+    49,
+    46,
+    43,
+    41,
+    50
+  ],
+  "contacts": [
+    {
+      "resid": 47,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 2.7,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 48,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 2.85,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 49,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.07,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 46,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "NE2",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 3.09,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 43,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "NE1",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 3.14,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 41,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "NE2",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 3.16,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 50,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.87,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

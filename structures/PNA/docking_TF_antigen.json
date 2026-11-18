@@ -1,0 +1,139 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "TF_antigen",
+  "ligand_name": "Galβ1-3GalNAc (T antigen)",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@H](CO)O[C@H]1O",
+  "affinity_kcal": -5.9,
+  "pocket_center": [
+    -6.97,
+    12.78,
+    0.72
+  ],
+  "ligand_pdb": "structures/PNA/docked_TF_antigen.pdb",
+  "n_ligand_atoms": 26,
+  "binding_residues": [
+    30,
+    32,
+    245,
+    249,
+    247,
+    28,
+    91,
+    248,
+    29,
+    89,
+    185
+  ],
+  "contacts": [
+    {
+      "resid": 30,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 2.84,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 32,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 2.94,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 245,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "OG",
+      "ligand_atom": "O8",
+      "ligand_elem": "O",
+      "distance": 2.98,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 249,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "OG1",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.17,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 247,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "OG",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 3.27,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 28,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "OG",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.38,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 91,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "C14",
+      "ligand_elem": "C",
+      "distance": 3.96,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 248,
+      "resname": "PHE",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 4.11,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 29,
+      "resname": "PHE",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "C6",
+      "ligand_elem": "C",
+      "distance": 4.23,
+      "interaction": "CH–π 疏水堆疊 (CH–π Stacking)"
+    },
+    {
+      "resid": 89,
+      "resname": "LEU",
+      "chain": "A",
+      "protein_atom": "CD2",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 4.24,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 185,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "CD",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 4.38,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

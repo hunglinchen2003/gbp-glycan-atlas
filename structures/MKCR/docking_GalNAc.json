@@ -1,0 +1,106 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "GalNAc",
+  "ligand_name": "α-D-GalNAc (Tn antigen)",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O)[C@@H](O)[C@H](CO)O[C@H]1O",
+  "affinity_kcal": -5.1,
+  "pocket_center": [
+    31.44,
+    -6.26,
+    -60.19
+  ],
+  "ligand_pdb": "structures/MKCR/docked_GalNAc.pdb",
+  "n_ligand_atoms": 15,
+  "binding_residues": [
+    541,
+    494,
+    539,
+    503,
+    498,
+    495,
+    530,
+    540
+  ],
+  "contacts": [
+    {
+      "resid": 541,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.76,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 494,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.85,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 539,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NE",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.19,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 503,
+      "resname": "HIS",
+      "chain": "A",
+      "protein_atom": "ND1",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.22,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 498,
+      "resname": "VAL",
+      "chain": "A",
+      "protein_atom": "CG2",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.66,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 495,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "CG",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.78,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 530,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "CG2",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.81,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 540,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 4.11,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

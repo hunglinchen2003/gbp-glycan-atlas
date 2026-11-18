@@ -1,0 +1,95 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "M6P",
+  "ligand_name": "Mannose-6-phosphate (M6P)",
+  "ligand_smiles": "O=P(O)(O)OC[C@H]1O[C@H](O)[C@@H](O)[C@@H](O)[C@@H]1O",
+  "affinity_kcal": -5.1,
+  "pocket_center": [
+    11.95,
+    8.65,
+    -15.9
+  ],
+  "ligand_pdb": "structures/M6PR/docked_M6P.pdb",
+  "n_ligand_atoms": 16,
+  "binding_residues": [
+    135,
+    166,
+    124,
+    108,
+    138,
+    136,
+    123
+  ],
+  "contacts": [
+    {
+      "resid": 135,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE2",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 2.69,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 166,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 2.89,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 124,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 2.92,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 108,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE2",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 2.94,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 138,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH1",
+      "ligand_atom": "O8",
+      "ligand_elem": "O",
+      "distance": 3.05,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 136,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.12,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 123,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.43,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    }
+  ]
+}

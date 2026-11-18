@@ -1,0 +1,95 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Glc1Man",
+  "ligand_name": "Glcα1-3Man",
+  "ligand_smiles": "OC[C@H]1O[C@H](O[C@H]2[C@@H](O)[C@@H](CO)O[C@H](O)[C@@H]2O)[C@H](O)[C@@H](O)[C@@H]1O",
+  "affinity_kcal": -5.9,
+  "pocket_center": [
+    23.18,
+    20.91,
+    -27.21
+  ],
+  "ligand_pdb": "structures/CANX/docked_Glc1Man.pdb",
+  "n_ligand_atoms": 23,
+  "binding_residues": [
+    289,
+    283,
+    286,
+    288,
+    285,
+    287,
+    290
+  ],
+  "contacts": [
+    {
+      "resid": 289,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE2",
+      "ligand_atom": "O7",
+      "ligand_elem": "O",
+      "distance": 2.74,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 283,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "NZ",
+      "ligand_atom": "O7",
+      "ligand_elem": "O",
+      "distance": 2.97,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 286,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.14,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 288,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 3.23,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 285,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "C5",
+      "ligand_elem": "C",
+      "distance": 3.32,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 287,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 3.32,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 290,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "CD",
+      "ligand_atom": "O10",
+      "ligand_elem": "O",
+      "distance": 3.55,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    }
+  ]
+}

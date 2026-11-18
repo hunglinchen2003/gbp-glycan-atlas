@@ -1,0 +1,95 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "GalNAc",
+  "ligand_name": "α-D-GalNAc (Tn antigen)",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O)[C@@H](O)[C@H](CO)O[C@H]1O",
+  "affinity_kcal": -4.6,
+  "pocket_center": [
+    -2.52,
+    -5.5,
+    -4.88
+  ],
+  "ligand_pdb": "structures/CNL/docked_GalNAc.pdb",
+  "n_ligand_atoms": 15,
+  "binding_residues": [
+    144,
+    16,
+    11,
+    38,
+    9,
+    19,
+    142
+  ],
+  "contacts": [
+    {
+      "resid": 144,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE2",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.95,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 16,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 2.99,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 11,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "OG1",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.05,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 38,
+      "resname": "LEU",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.38,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 9,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.97,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 19,
+      "resname": "LEU",
+      "chain": "A",
+      "protein_atom": "CD1",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 4.03,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 142,
+      "resname": "ALA",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 4.07,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

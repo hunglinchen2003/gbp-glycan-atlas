@@ -1,0 +1,117 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Gal",
+  "ligand_name": "β-D-Galactose",
+  "ligand_smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+  "affinity_kcal": -5.5,
+  "pocket_center": [
+    -2.87,
+    -11.86,
+    -3.82
+  ],
+  "ligand_pdb": "structures/DCAL1/docked_Gal.pdb",
+  "n_ligand_atoms": 12,
+  "binding_residues": [
+    151,
+    130,
+    131,
+    154,
+    129,
+    122,
+    152,
+    146,
+    153
+  ],
+  "contacts": [
+    {
+      "resid": 151,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "OG",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 2.75,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 130,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "CD1",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.91,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 131,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 2.98,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 154,
+      "resname": "MET",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.07,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 129,
+      "resname": "CYS",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.13,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 122,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "CZ3",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.33,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 152,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "C4",
+      "ligand_elem": "C",
+      "distance": 3.46,
+      "interaction": "CH–π 疏水堆疊 (CH–π Stacking)"
+    },
+    {
+      "resid": 146,
+      "resname": "CYS",
+      "chain": "A",
+      "protein_atom": "SG",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 3.49,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 153,
+      "resname": "LEU",
+      "chain": "A",
+      "protein_atom": "CD1",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 4.1,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

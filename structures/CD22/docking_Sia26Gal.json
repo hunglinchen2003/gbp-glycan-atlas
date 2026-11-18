@@ -1,0 +1,150 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Sia26Gal",
+  "ligand_name": "Neu5Acα2-6Gal",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](C[C@](O)(OC[C@H]2O[C@@H](O)[C@H](O)[C@@H](O)[C@H]2O)C(=O)O)O[C@H]([C@H](O)[C@H](O)CO)[C@H]1O",
+  "affinity_kcal": -6.9,
+  "pocket_center": [
+    -68.05,
+    -38.63,
+    87.38
+  ],
+  "ligand_pdb": "structures/CD22/docked_Sia26Gal.pdb",
+  "n_ligand_atoms": 34,
+  "binding_residues": [
+    635,
+    631,
+    637,
+    638,
+    652,
+    632,
+    657,
+    653,
+    646,
+    636,
+    654,
+    639
+  ],
+  "contacts": [
+    {
+      "resid": 635,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O14",
+      "ligand_elem": "O",
+      "distance": 2.95,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 631,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD2",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.04,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 637,
+      "resname": "LEU",
+      "chain": "A",
+      "protein_atom": "CD2",
+      "ligand_atom": "C3",
+      "ligand_elem": "C",
+      "distance": 3.21,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 638,
+      "resname": "PRO",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "O12",
+      "ligand_elem": "O",
+      "distance": 3.3,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 652,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 3.34,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 632,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "NE1",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 3.35,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 657,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "OH",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.42,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 653,
+      "resname": "HIS",
+      "chain": "A",
+      "protein_atom": "NE2",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.64,
+      "interaction": "CH–π 疏水堆疊 (CH–π Stacking)"
+    },
+    {
+      "resid": 646,
+      "resname": "LEU",
+      "chain": "A",
+      "protein_atom": "CD2",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.68,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 636,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O13",
+      "ligand_elem": "O",
+      "distance": 3.83,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 654,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 4.07,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 639,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "CE2",
+      "ligand_atom": "O15",
+      "ligand_elem": "O",
+      "distance": 4.09,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

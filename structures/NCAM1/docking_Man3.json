@@ -1,0 +1,95 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Man3",
+  "ligand_name": "Manα1-3(Manα1-6)Man (Man3 Core)",
+  "ligand_smiles": "OC[C@H]1O[C@H](OC[C@H]2O[C@H](O)[C@@H](O)[C@@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]3O)[C@@H]2O)[C@@H](O)[C@@H](O)[C@@H]1O",
+  "affinity_kcal": -6.2,
+  "pocket_center": [
+    20.89,
+    63.72,
+    -25.66
+  ],
+  "ligand_pdb": "structures/NCAM1/docked_Man3.pdb",
+  "n_ligand_atoms": 34,
+  "binding_residues": [
+    652,
+    681,
+    650,
+    679,
+    699,
+    697,
+    653
+  ],
+  "contacts": [
+    {
+      "resid": 652,
+      "resname": "LEU",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.78,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 681,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.08,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 650,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH2",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.09,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 679,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O14",
+      "ligand_elem": "O",
+      "distance": 3.09,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 699,
+      "resname": "VAL",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "O12",
+      "ligand_elem": "O",
+      "distance": 3.22,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 697,
+      "resname": "HIS",
+      "chain": "A",
+      "protein_atom": "CE1",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 3.44,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 653,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 4.38,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

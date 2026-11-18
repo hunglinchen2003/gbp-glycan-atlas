@@ -1,0 +1,106 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Man",
+  "ligand_name": "α-D-Mannose",
+  "ligand_smiles": "OC[C@H]1O[C@H](O)[C@@H](O)[C@@H](O)[C@@H]1O",
+  "affinity_kcal": -4.9,
+  "pocket_center": [
+    7.95,
+    4.57,
+    -18.42
+  ],
+  "ligand_pdb": "structures/SFTPD/docked_Man.pdb",
+  "n_ligand_atoms": 12,
+  "binding_residues": [
+    361,
+    343,
+    345,
+    341,
+    363,
+    355,
+    349,
+    362
+  ],
+  "contacts": [
+    {
+      "resid": 361,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.76,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 343,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "ND2",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.79,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 345,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD2",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.83,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 341,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.07,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 363,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH1",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 3.12,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 355,
+      "resname": "PHE",
+      "chain": "A",
+      "protein_atom": "CZ",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 4.01,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 349,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 4.12,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 362,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 4.45,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

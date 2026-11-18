@@ -1,0 +1,150 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Fuc",
+  "ligand_name": "α-L-Fucose",
+  "ligand_smiles": "C[C@@H]1O[C@@H](O)[C@@H](O)[C@H](O)[C@@H]1O",
+  "affinity_kcal": -5.4,
+  "pocket_center": [
+    12.23,
+    9.37,
+    -10.56
+  ],
+  "ligand_pdb": "structures/LECB/docked_Fuc.pdb",
+  "n_ligand_atoms": 11,
+  "binding_residues": [
+    105,
+    100,
+    24,
+    22,
+    23,
+    96,
+    102,
+    98,
+    97,
+    25,
+    99,
+    46
+  ],
+  "contacts": [
+    {
+      "resid": 105,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "C5",
+      "ligand_elem": "C",
+      "distance": 2.67,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 100,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 2.78,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 24,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "OG",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.88,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 22,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 3.02,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 23,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "OG",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.11,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 96,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.11,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 102,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD2",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.15,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 98,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.67,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 97,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "C6",
+      "ligand_elem": "C",
+      "distance": 3.71,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 25,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 4.19,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 99,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 4.28,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 46,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "CG2",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 4.43,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

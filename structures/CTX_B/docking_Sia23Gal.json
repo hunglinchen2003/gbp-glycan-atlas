@@ -1,0 +1,95 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Sia23Gal",
+  "ligand_name": "Neu5Acα2-3Gal",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](C[C@](O)(O[C@H]2[C@@H](O)[C@@H](CO)O[C@@H](O)[C@@H]2O)C(=O)O)O[C@H]([C@H](O)[C@H](O)CO)[C@H]1O",
+  "affinity_kcal": -5.6,
+  "pocket_center": [
+    -3.7,
+    6.57,
+    -14.3
+  ],
+  "ligand_pdb": "structures/CTX_B/docked_Sia23Gal.pdb",
+  "n_ligand_atoms": 34,
+  "binding_residues": [
+    77,
+    111,
+    82,
+    112,
+    109,
+    78,
+    33
+  ],
+  "contacts": [
+    {
+      "resid": 77,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.79,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 111,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O10",
+      "ligand_elem": "O",
+      "distance": 2.8,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 82,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.99,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 112,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "CE",
+      "ligand_atom": "O11",
+      "ligand_elem": "O",
+      "distance": 3.32,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 109,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "CZ2",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 3.83,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 78,
+      "resname": "HIS",
+      "chain": "A",
+      "protein_atom": "ND1",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 4.14,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 33,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "CE1",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 4.18,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

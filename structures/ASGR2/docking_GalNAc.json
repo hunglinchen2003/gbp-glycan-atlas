@@ -1,0 +1,106 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "GalNAc",
+  "ligand_name": "α-D-GalNAc (Tn antigen)",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O)[C@@H](O)[C@H](CO)O[C@H]1O",
+  "affinity_kcal": -4.2,
+  "pocket_center": [
+    5.16,
+    5.41,
+    -5.9
+  ],
+  "ligand_pdb": "structures/ASGR2/docked_GalNAc.pdb",
+  "n_ligand_atoms": 15,
+  "binding_residues": [
+    261,
+    282,
+    284,
+    260,
+    288,
+    286,
+    262,
+    263
+  ],
+  "contacts": [
+    {
+      "resid": 261,
+      "resname": "VAL",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.88,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 282,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "N1",
+      "ligand_elem": "N",
+      "distance": 3.07,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 284,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD2",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.13,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 260,
+      "resname": "ALA",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "C6",
+      "ligand_elem": "C",
+      "distance": 3.46,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 288,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.83,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 286,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "CG",
+      "ligand_atom": "C6",
+      "ligand_elem": "C",
+      "distance": 3.92,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 262,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "OG1",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 4.03,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 263,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "CG",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 4.48,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

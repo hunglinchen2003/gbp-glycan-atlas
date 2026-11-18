@@ -1,0 +1,106 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "GlNAcMurNAc",
+  "ligand_name": "GlcNAc-MurNAc (Peptidoglycan)",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2NC(C)=O)[C@@H](CO)O[C@H]1O",
+  "affinity_kcal": -6.0,
+  "pocket_center": [
+    5.13,
+    -0.4,
+    -8.39
+  ],
+  "ligand_pdb": "structures/REG3A/docked_GlNAcMurNAc.pdb",
+  "n_ligand_atoms": 29,
+  "binding_residues": [
+    141,
+    135,
+    142,
+    140,
+    161,
+    159,
+    139,
+    160
+  ],
+  "contacts": [
+    {
+      "resid": 141,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "OG",
+      "ligand_atom": "O7",
+      "ligand_elem": "O",
+      "distance": 2.69,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 135,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH1",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 2.71,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 142,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.06,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 140,
+      "resname": "ILE",
+      "chain": "A",
+      "protein_atom": "CD1",
+      "ligand_atom": "C11",
+      "ligand_elem": "C",
+      "distance": 3.23,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 161,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "CE2",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.37,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 159,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "CG",
+      "ligand_atom": "C11",
+      "ligand_elem": "C",
+      "distance": 3.46,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 139,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O6",
+      "ligand_elem": "O",
+      "distance": 3.7,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 160,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "C11",
+      "ligand_elem": "C",
+      "distance": 3.94,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

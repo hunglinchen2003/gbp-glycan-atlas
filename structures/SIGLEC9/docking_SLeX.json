@@ -1,0 +1,150 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "SLeX",
+  "ligand_name": "Sialyl-Lewis X (SLeX)",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O[C@@H]2O[C@@H](C)[C@@H](O)[C@@H](O)[C@@H]2O)[C@H](O[C@@H]3O[C@H](CO)[C@H](O)[C@H](O[C@]4(C(=O)O)C[C@H](O)[C@@H](NC(C)=O)[C@@H]([C@H](O)[C@H](O)CO)O4)[C@H]3O)[C@@H](CO)O[C@H]1O",
+  "affinity_kcal": -7.0,
+  "pocket_center": [
+    13.57,
+    10.17,
+    -30.0
+  ],
+  "ligand_pdb": "structures/SIGLEC9/docked_SLeX.pdb",
+  "n_ligand_atoms": 56,
+  "binding_residues": [
+    134,
+    132,
+    27,
+    133,
+    135,
+    136,
+    116,
+    131,
+    25,
+    23,
+    26,
+    24
+  ],
+  "contacts": [
+    {
+      "resid": 134,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH2",
+      "ligand_atom": "O13",
+      "ligand_elem": "O",
+      "distance": 2.84,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 132,
+      "resname": "HIS",
+      "chain": "A",
+      "protein_atom": "ND1",
+      "ligand_atom": "O15",
+      "ligand_elem": "O",
+      "distance": 3.03,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 27,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "OG",
+      "ligand_atom": "O23",
+      "ligand_elem": "O",
+      "distance": 3.05,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 133,
+      "resname": "HIS",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.57,
+      "interaction": "CH–π 疏水堆疊 (CH–π Stacking)"
+    },
+    {
+      "resid": 135,
+      "resname": "LEU",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 5.66,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 136,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 6.34,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 116,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 7.1,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 131,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 7.1,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 25,
+      "resname": "MET",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 7.23,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 23,
+      "resname": "LEU",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 7.38,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 26,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 7.4,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 24,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "CA",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 7.44,
+      "interaction": "范德華接觸 (van der Waals)"
+    }
+  ]
+}

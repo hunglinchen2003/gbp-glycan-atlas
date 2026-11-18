@@ -1,0 +1,117 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "M6P",
+  "ligand_name": "Mannose-6-phosphate (M6P)",
+  "ligand_smiles": "O=P(O)(O)OC[C@H]1O[C@H](O)[C@@H](O)[C@@H](O)[C@@H]1O",
+  "affinity_kcal": -6.3,
+  "pocket_center": [
+    10.08,
+    -27.49,
+    -45.91
+  ],
+  "ligand_pdb": "structures/IGF2R/docked_M6P.pdb",
+  "n_ligand_atoms": 16,
+  "binding_residues": [
+    722,
+    708,
+    710,
+    304,
+    749,
+    721,
+    724,
+    726,
+    747
+  ],
+  "contacts": [
+    {
+      "resid": 722,
+      "resname": "PRO",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O8",
+      "ligand_elem": "O",
+      "distance": 2.75,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 708,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "ND2",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.84,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 710,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH2",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.1,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 304,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "OG",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 3.17,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 749,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "OG1",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 3.29,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 721,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "CG2",
+      "ligand_atom": "O8",
+      "ligand_elem": "O",
+      "distance": 3.34,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 724,
+      "resname": "ALA",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.72,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 726,
+      "resname": "LEU",
+      "chain": "A",
+      "protein_atom": "CD2",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.85,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 747,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O8",
+      "ligand_elem": "O",
+      "distance": 4.08,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

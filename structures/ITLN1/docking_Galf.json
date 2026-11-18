@@ -1,0 +1,95 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Galf",
+  "ligand_name": "β-D-Galactofuranose",
+  "ligand_smiles": "OC[C@H](O)[C@@H]1O[C@@H](O)[C@H](O)[C@@H]1O",
+  "affinity_kcal": -4.7,
+  "pocket_center": [
+    9.77,
+    10.65,
+    -12.09
+  ],
+  "ligand_pdb": "structures/ITLN1/docked_Galf.pdb",
+  "n_ligand_atoms": 12,
+  "binding_residues": [
+    274,
+    288,
+    260,
+    263,
+    279,
+    297,
+    262
+  ],
+  "contacts": [
+    {
+      "resid": 274,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE2",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 2.75,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 288,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "NE1",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 2.99,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 260,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "C1",
+      "ligand_elem": "C",
+      "distance": 3.05,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 263,
+      "resname": "HIS",
+      "chain": "A",
+      "protein_atom": "NE2",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.08,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 279,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "NE2",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.89,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 297,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "CE2",
+      "ligand_atom": "C5",
+      "ligand_elem": "C",
+      "distance": 3.89,
+      "interaction": "CH–π 疏水堆疊 (CH–π Stacking)"
+    },
+    {
+      "resid": 262,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "OE1",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 4.01,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

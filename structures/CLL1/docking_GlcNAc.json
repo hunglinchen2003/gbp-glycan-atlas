@@ -1,0 +1,95 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "GlcNAc",
+  "ligand_name": "β-D-GlcNAc",
+  "ligand_smiles": "CC(=O)N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]1O",
+  "affinity_kcal": -5.2,
+  "pocket_center": [
+    10.85,
+    9.79,
+    -18.6
+  ],
+  "ligand_pdb": "structures/CLL1/docked_GlcNAc.pdb",
+  "n_ligand_atoms": 15,
+  "binding_residues": [
+    237,
+    199,
+    202,
+    236,
+    200,
+    229,
+    201
+  ],
+  "contacts": [
+    {
+      "resid": 237,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 2.73,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 199,
+      "resname": "SER",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.83,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 202,
+      "resname": "GLY",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.99,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 236,
+      "resname": "GLN",
+      "chain": "A",
+      "protein_atom": "NE2",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.02,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 200,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "C",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.11,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 229,
+      "resname": "TYR",
+      "chain": "A",
+      "protein_atom": "OH",
+      "ligand_atom": "O1",
+      "ligand_elem": "O",
+      "distance": 3.13,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 201,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.43,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    }
+  ]
+}

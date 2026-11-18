@@ -1,0 +1,95 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Glc1Man",
+  "ligand_name": "Glcα1-3Man",
+  "ligand_smiles": "OC[C@H]1O[C@H](O[C@H]2[C@@H](O)[C@@H](CO)O[C@H](O)[C@@H]2O)[C@H](O)[C@@H](O)[C@@H]1O",
+  "affinity_kcal": -6.2,
+  "pocket_center": [
+    39.47,
+    -7.0,
+    -26.52
+  ],
+  "ligand_pdb": "structures/CALR/docked_Glc1Man.pdb",
+  "n_ligand_atoms": 23,
+  "binding_residues": [
+    220,
+    215,
+    221,
+    217,
+    222,
+    216,
+    219
+  ],
+  "contacts": [
+    {
+      "resid": 220,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.79,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 215,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O9",
+      "ligand_elem": "O",
+      "distance": 2.83,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 221,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "N",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.89,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 217,
+      "resname": "GLU",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O10",
+      "ligand_elem": "O",
+      "distance": 3.13,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 222,
+      "resname": "ARG",
+      "chain": "A",
+      "protein_atom": "NH2",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 3.18,
+      "interaction": "氫鍵／鹽橋 (H-bond / Electrostatic)"
+    },
+    {
+      "resid": 216,
+      "resname": "PRO",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O10",
+      "ligand_elem": "O",
+      "distance": 3.31,
+      "interaction": "極性接觸 (Polar Contact)"
+    },
+    {
+      "resid": 219,
+      "resname": "TRP",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.85,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GBP–醣結構與分子對接圖譜 (Plant · Animal · Microbial Lectin Atlas)</title>
+  <link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+  <header class="mast">
+    <p class="kicker">Animal · Plant · Microbial GBPs · AlphaFold DB · In-House AutoDock Vina</p>
+    <h1>GBP–醣結合蛋白資料庫與分子對接圖譜</h1>
+    <p class="lede" id="lede">載入分析與對接資料…</p>
+    <div class="summary-badges" id="summary-badges"></div>
+    <nav class="jump">
+      <button type="button" data-jump="pickers">蛋白與醣選單</button>
+      <button type="button" data-jump="stage">3D 結構與結合位點</button>
+      <button type="button" data-jump="db-section">完整 GBP 資料庫總表</button>
+      <button type="button" data-jump="pca">PCA 特異性分群</button>
+      <button type="button" data-jump="heat-class">類別熱圖</button>
+      <button type="button" data-jump="heat-full">全醣熱圖</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="panel" id="pickers">
+      <div class="pick">
+        <div class="pick-head">
+          <h2>1. 選取醣結合蛋白 (GBP／Lectin)</h2>
+          <p>涵蓋動物（含附件 C/S/I-Type 清單）、植物與微生物凝集素。點選即可預覽 3D 結構與對接結合位點。</p>
+        </div>
+        <input id="gbp-q" type="search" placeholder="搜尋蛋白、基因、別名 (如 CLEC9A、NKp44、Siglec-7、ConA、DC-SIGN)…" autocomplete="off">
+        <div class="chips" id="kingdom-chips"></div>
+        <div class="chips" id="family-chips"></div>
+        <div class="pick-list" id="gbp-list"></div>
+      </div>
+      <div class="pick">
+        <div class="pick-head">
+          <h2>2. 從醣結構找凝集素</h2>
+          <p>選一個聚糖組成，列出偏好結合它的植物、動物與微生物 GBP。</p>
+        </div>
+        <input id="glycan-q" type="search" placeholder="搜尋 N4H5、HexNAc、唾液酸、高甘露糖…" autocomplete="off">
+        <div class="chips" id="glycan-chips"></div>
+        <div class="pick-list" id="glycan-list"></div>
+      </div>
+    </section>
+
+    <section class="stage" id="stage">
+      <article class="card protein-card">
+        <div id="protein-meta"></div>
+        <div class="viewer-wrap">
+          <div id="viewer"></div>
+          <div class="viewer-tools">
+            <div class="btn-group">
+              <button type="button" id="viewer-focus-site" class="primary">聚焦結合位點 (Binding Site)</button>
+              <button type="button" id="viewer-reset">全蛋白質結構預覽 (Full Protein)</button>
+              <button type="button" id="viewer-toggle-labels">顯示/隱藏殘基與原子標籤</button>
+              <button type="button" id="viewer-toggle-surface">口袋表面 (Surface)</button>
+            </div>
+            <span class="tag" id="viewer-status"></span>
+          </div>
+          <div class="viewer-legend">
+            <p class="plddt" id="plddt-legend">
+              <strong>蛋白 pLDDT：</strong>
+              <span style="background:#0053d6"></span>&gt;90
+              <span style="background:#65cbf3"></span>70–90
+              <span style="background:#ffdb13"></span>50–70
+              <span style="background:#ff7d45"></span>&lt;50
+            </p>
+            <p class="plddt">
+              <strong>對接圖層：</strong>
+              <span style="background:#e11d48"></span>結合位點胺基酸 (Binding Site AA)
+              <span style="background:#16a34a"></span>對接醣配體原子 (Ligand Atom)
+              <span style="background:#f59e0b"></span>交互作用接觸 (&le;4.5 &Aring;)
+            </p>
+          </div>
+        </div>
+        <div id="docking-panel"></div>
+        <div id="pref-strip"></div>
+      </article>
+      <article class="card" id="glycan-card"></article>
+    </section>
+
+    <section class="panel" id="db-section">
+      <div class="section-head">
+        <h2>完整醣結合蛋白資料庫總表（植物 · 動物 · 微生物 · 附件圖片清單）</h2>
+        <p>點擊任一列即可在上方 3D 視窗載入該蛋白質結構、對接醣配體與結合位點胺基酸（黃底星號 ★ 為附件圖片螢光筆標示項目）。</p>
+      </div>
+      <div class="table-wrap">
+        <table class="db-table" id="db-table">
+          <thead>
+            <tr>
+              <th>物種界別</th>
+              <th>分類面板 (Panel)</th>
+              <th>蛋白質名稱</th>
+              <th>基因／別名 (Other Names)</th>
+              <th>UniProt</th>
+              <th>物種</th>
+              <th>對接代表醣配體</th>
+              <th>Vina 親和力</th>
+              <th>關鍵結合位點胺基酸 (Binding Site AAs)</th>
+            </tr>
+          </thead>
+          <tbody id="db-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel" id="pca">
+      <div class="section-head">
+        <h2>PCA 特異性圖譜</h2>
+        <p id="pca-note"></p>
+      </div>
+      <div id="pca-plot" class="plot"></div>
+      <div class="legend" id="family-legend"></div>
+      <div class="loadings" id="loadings"></div>
+    </section>
+
+    <section class="panel" id="heat-class">
+      <div class="section-head">
+        <h2>依醣類別的 Heatmap</h2>
+        <p>每一格是該 GBP 在此聚糖類別裡的平均模型分數。點一格會選定那一列的蛋白並載入 3D 對接結構。</p>
+      </div>
+      <div id="class-plot" class="plot"></div>
+      <div id="class-bar" class="plot short"></div>
+    </section>
+
+    <section class="panel" id="heat-full">
+      <div class="section-head">
+        <h2>全部醣的 Heatmap</h2>
+        <p>列、欄都依分數形狀做階層分群。懸停看名稱，點一格同時選定 GBP 與醣。顏色是 0–1 的模型分數。</p>
+      </div>
+      <div id="full-plot" class="plot tall"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>蛋白質三維座標來自 AlphaFold DB，代表性醣配體由 RDKit ETKDGv3 產生三維構型並以 In-house AutoDock Vina 進行分子對接，自動解析 4.5 &Aring; 內之結合位點胺基酸 (Binding Site AA) 與配體原子 (Ligand Atom) 接觸。</p>
+  </footer>
+
+  <script src="vendor/plotly.min.js"></script>
+  <script src="vendor/3Dmol-min.js"></script>
+  <script src="app.js?v=3"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+  "engine": "AutoDock Vina 1.1.2",
+  "ligand_key": "Gal",
+  "ligand_name": "β-D-Galactose",
+  "ligand_smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+  "affinity_kcal": -4.4,
+  "pocket_center": [
+    2.45,
+    12.8,
+    3.39
+  ],
+  "ligand_pdb": "structures/KLRB1/docked_Gal.pdb",
+  "n_ligand_atoms": 12,
+  "binding_residues": [
+    113,
+    117,
+    124,
+    121,
+    120,
+    125
+  ],
+  "contacts": [
+    {
+      "resid": 113,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "ND2",
+      "ligand_atom": "O2",
+      "ligand_elem": "O",
+      "distance": 2.83,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 117,
+      "resname": "ASN",
+      "chain": "A",
+      "protein_atom": "O",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 2.91,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 124,
+      "resname": "THR",
+      "chain": "A",
+      "protein_atom": "OG1",
+      "ligand_atom": "O4",
+      "ligand_elem": "O",
+      "distance": 3.04,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 121,
+      "resname": "ASP",
+      "chain": "A",
+      "protein_atom": "OD1",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 3.14,
+      "interaction": "氫鍵／極性配位 (H-bond / Polar)"
+    },
+    {
+      "resid": 120,
+      "resname": "ALA",
+      "chain": "A",
+      "protein_atom": "CB",
+      "ligand_atom": "O3",
+      "ligand_elem": "O",
+      "distance": 3.28,
+      "interaction": "范德華接觸 (van der Waals)"
+    },
+    {
+      "resid": 125,
+      "resname": "LYS",
+      "chain": "A",
+      "protein_atom": "NZ",
+      "ligand_atom": "O5",
+      "ligand_elem": "O",
+      "distance": 4.46,
+      "interaction": "極性接觸 (Polar Contact)"
+    }
+  ]
+}
