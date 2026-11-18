@@ -28,7 +28,47 @@ body {
 
 .mast, main, footer { width: min(1340px, calc(100% - 32px)); margin: 0 auto; }
 
-.mast { padding: 26px 0 10px; }
+.mast { padding: 24px 0 10px; }
+
+.mast-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.lang-switch {
+  display: inline-flex;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px;
+  gap: 2px;
+}
+
+.lang-switch button {
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.lang-switch button:hover {
+  background: var(--paper);
+}
+
+.lang-switch button.active {
+  background: var(--teal);
+  color: white;
+}
+
+.plddt em { font-style: normal; }
 
 .kicker {
   margin: 0;
